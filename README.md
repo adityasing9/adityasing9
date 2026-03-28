@@ -78,6 +78,17 @@ Git, Docker, Vercel, Firebase, REST APIs
 
 </div>
 
+
+
+
+
+<img src="https://github-readme-stats.vercel.app/api?username=adityasing9&show_icons=true&theme=github_dark&hide_border=true" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&layout=compact&theme=github_dark&hide_border=true" />
+<img src="https://github-profile-trophy.vercel.app/?username=adityasing9&theme=onedark&no-frame=true&margin-w=10" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=adityasing9&show_icons=true&theme=github_dark&hide_border=true" />
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=adityasing9&layout=compact&theme=github_dark&hide_border=true" />
+<img src="https://github-profile-trophy.vercel.app/?username=adityasing9&theme=onedark&no-frame=true" />
+
 ---
 
 ## 🔥 Profile Views
