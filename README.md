@@ -20,7 +20,7 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&layout=compact&theme=github_dark&hide_border=true&cache_seconds=86400" />
+<img src="https://streak-stats.demolab.com?user=adityasing9&theme=github-dark&hide_border=true" />
 
 </div>
 
