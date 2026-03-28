@@ -1,6 +1,6 @@
 # 💫 About Me
 
-🚀 I am an Artificial Intelligence and Machine Learning (AIML) student focused on building practical and scalable software solutions.
+🚀 I am an **Artificial Intelligence and Machine Learning (AIML) student** focused on building practical and scalable software solutions.
 
 I specialize in developing **AI-powered applications and full-stack systems**, combining machine learning with modern web technologies to solve real-world problems.
 
@@ -13,6 +13,16 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 - Full-stack development  
 - Real-world problem solving using AI  
 - Backend & system design  
+
+---
+
+## ⚡ Streak Stats
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=adityasing9&theme=dark&background=0D1117&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideLabels=00FFFF&border=00FFFF" />
+
+</div>
 
 ---
 
@@ -50,20 +60,30 @@ Git, Docker, Vercel, Firebase, REST APIs
 
 ## 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=adityasing9&theme=transparent&hide_border=false&include_all_commits=true&count_private=true)
+<div align="center">
 
-![](https://nirzak-streak-stats.vercel.app/?user=adityasing9&theme=transparent&hide_border=false)
+<img src="https://github-readme-stats.vercel.app/api?username=adityasing9&theme=transparent&hide_border=false&include_all_commits=true&count_private=true" />
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&theme=transparent&hide_border=false&layout=compact)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&theme=transparent&hide_border=false&layout=compact" />
+
+</div>
 
 ---
 
 ## 🏆 Achievements
 
-![](https://github-profile-trophy.vercel.app/?username=adityasing9&theme=radical&no-frame=false&margin-w=4)
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=adityasing9&theme=radical&no-frame=false&margin-w=8" />
+
+</div>
 
 ---
 
 ## 🔥 Profile Views
 
-![](https://visitcount.itsvg.in/api?id=adityasing9&icon=0&color=0)
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=adityasing9&label=Profile%20views&color=0e75b6&style=flat" />
+
+</div>
