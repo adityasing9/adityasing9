@@ -21,6 +21,7 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=adityasing9&theme=dark&background=0D1117&ring=00FFFF&fire=00FFFF&currStreakLabel=00FFFF&sideLabels=00FFFF&border=00FFFF" />
+<img src="https://github-readme-stats.vercel.app/api?username=adityasing9&show_icons=true&theme=github_dark&hide_border=true&cache_seconds=86400" />
 
 </div>
 
