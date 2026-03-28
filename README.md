@@ -76,11 +76,28 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 
 ---
 
-## 📌 Featured Projects
+## 🗺️ My AI & Development Journey
 
-- 🤖 **DevMentor** – AI-powered chatbot for developer assistance  
-- 🌐 Interactive full-stack web applications  
-- ⚡ AI-based tools solving real-world problems  
+```mermaid
+journey
+    title My AI & Development Journey
+    section Foundation
+      Learn Python: 9: Me
+      JavaScript Basics: 8: Me
+      Problem Solving: 7: Me
+    section Building Skills
+      Full Stack Development: 8: Me
+      API Development: 8: Me
+      Machine Learning: 7: Me
+    section Current Focus
+      AI Projects (DevMentor): 9: Me
+      Real-world Applications: 8: Me
+      Backend Systems: 7: Me
+    section Next Goals
+      Advanced AI Systems: 5: Me
+      MLOps & Deployment: 4: Me
+      Scalable Systems: 3: Me
+```
 
 ---
 
