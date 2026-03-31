@@ -16,6 +16,21 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 
 ---
 
+## 🌐 Portfolio
+
+### 🚀 BuildLab (My Personal Portfolio)
+
+🔗 https://build-lab-kappa.vercel.app
+
+> A fully deployed portfolio showcasing my AI and full-stack projects
+
+- Modern UI & responsive design  
+- Dynamic project rendering  
+- Built with scalability in mind  
+- Deployed on Vercel  
+
+---
+
 ## ⚡ Streak Stats
 
 <div align="center">
