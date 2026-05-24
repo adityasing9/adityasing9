@@ -8,11 +8,67 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 
 ---
 
+## 🏆 Achievements
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=adityasing9&theme=radical&no-frame=false&margin-w=8" />
+
+</div>
+
+---
+
+## 🌐 Connect With Me
+
+- GitHub: https://github.com/adityasing9  
+- LinkedIn: https://www.linkedin.com/in/aaditya-singh-37594b3ba/  
+- Email: to.msg.aadi@gmail.com  
+
+---
+
 ## 🎯 Current Focus
 - AI/ML-based applications  
 - Full-stack development  
 - Real-world problem solving using AI  
 - Backend & system design  
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=adityasing9&theme=transparent&hide_border=false&include_all_commits=true&count_private=true" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&theme=transparent&hide_border=false&layout=compact" />
+
+</div>
+
+---
+
+
+## 🗺️ My AI & Development Journey
+
+```mermaid
+journey
+    title My AI & Development Journey
+    section Foundation
+      Learn Python: 9: Me
+      JavaScript Basics: 8: Me
+      Problem Solving: 7: Me
+    section Building Skills
+      Full Stack Development: 8: Me
+      API Development: 8: Me
+      Machine Learning: 7: Me
+    section Current Focus
+      AI Projects (DevMentor): 9: Me
+      Real-world Applications: 8: Me
+      Backend Systems: 7: Me
+    section Next Goals
+      Advanced AI Systems: 5: Me
+      MLOps & Deployment: 4: Me
+      Scalable Systems: 3: Me
+```
 
 ---
 
@@ -28,6 +84,16 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 - Dynamic project rendering  
 - Built with scalability in mind  
 - Deployed on Vercel  
+
+---
+
+## 🔥 Profile Views
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=adityasing9&label=Profile%20views&color=0e75b6&style=flat" />
+
+</div>
 
 ---
 
@@ -91,65 +157,3 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 
 ---
 
-## 🗺️ My AI & Development Journey
-
-```mermaid
-journey
-    title My AI & Development Journey
-    section Foundation
-      Learn Python: 9: Me
-      JavaScript Basics: 8: Me
-      Problem Solving: 7: Me
-    section Building Skills
-      Full Stack Development: 8: Me
-      API Development: 8: Me
-      Machine Learning: 7: Me
-    section Current Focus
-      AI Projects (DevMentor): 9: Me
-      Real-world Applications: 8: Me
-      Backend Systems: 7: Me
-    section Next Goals
-      Advanced AI Systems: 5: Me
-      MLOps & Deployment: 4: Me
-      Scalable Systems: 3: Me
-```
-
----
-
-## 🌐 Connect With Me
-
-- GitHub: https://github.com/adityasing9  
-- LinkedIn: https://www.linkedin.com/in/aaditya-singh-37594b3ba/  
-- Email: to.msg.aadi@gmail.com  
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=adityasing9&theme=transparent&hide_border=false&include_all_commits=true&count_private=true" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&theme=transparent&hide_border=false&layout=compact" />
-
-</div>
-
----
-
-## 🏆 Achievements
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=adityasing9&theme=radical&no-frame=false&margin-w=8" />
-
-</div>
-
----
-
-## 🔥 Profile Views
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=adityasing9&label=Profile%20views&color=0e75b6&style=flat" />
-
-</div>
