@@ -18,14 +18,6 @@ I actively build and deploy projects to strengthen my skills in **machine learni
 
 ---
 
-## 🌐 Connect With Me
-
-- GitHub: https://github.com/adityasing9  
-- LinkedIn: https://www.linkedin.com/in/aaditya-singh-37594b3ba/  
-- Email: to.msg.aadi@gmail.com  
-
----
-
 ## 🎯 Current Focus
 - AI/ML-based applications  
 - Full-stack development  
@@ -156,4 +148,11 @@ journey
 </div>
 
 ---
+
+## 🌐 Connect With Me
+
+- GitHub: https://github.com/adityasing9  
+- LinkedIn: https://www.linkedin.com/in/aaditya-singh-37594b3ba/  
+- Email: to.msg.aadi@gmail.com  
+
 
