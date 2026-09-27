@@ -91,6 +91,8 @@ I'm currently pursuing a **B.E. in Artificial Intelligence & Machine Learning** 
 
 I use **BuildLab** to showcase projects, experiments and things I'm actively building.
 
+It is the place where I turn ideas into working prototypes, test new technologies, and document projects as they evolve.
+
 🔗 **https://build-lab-kappa.vercel.app**
 
 ---
