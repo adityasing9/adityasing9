@@ -111,11 +111,11 @@ I use **BuildLab** to showcase projects, experiments and things I'm actively bui
 
 <div align="center">
 
-<a href="https://git.io/streak-stats">
-<img src="https://streak-stats.demolab.com/?user=adityasing9&theme=dark&hide_border=true&locale=en&timezone=Asia%2FKolkata" alt="GitHub Contribution Streak" />
-</a>
+<img src="./profile/streak.svg" alt="GitHub Contribution Streak" />
 
 </div>
+
+> Updated automatically every day using GitHub Actions.
 
 ---
 
