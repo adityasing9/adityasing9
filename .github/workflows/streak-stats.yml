@@ -26,7 +26,7 @@ jobs:
         with:
           options: user=adityasing9&theme=dark&hide_border=true&hide_total_contributions=true&locale=en&timezone=Asia%2FKolkata&disable_animations=true
           path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.STREAK_STATS_TOKEN }}
 
       - name: Commit and push updated streak
         run: |
