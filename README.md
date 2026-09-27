@@ -99,11 +99,15 @@ I use **BuildLab** to showcase projects, experiments and things I'm actively bui
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=adityasing9&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true" height="165" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&layout=compact&theme=transparent&hide_border=true" height="165" />
+[![Repositories](https://img.shields.io/badge/Repositories-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/adityasing9?tab=repositories)
+[![Followers](https://img.shields.io/github/followers/adityasing9?style=for-the-badge&label=Followers)](https://github.com/adityasing9)
+[![Stars](https://img.shields.io/github/stars/adityasing9?style=for-the-badge&label=Stars)](https://github.com/adityasing9?tab=repositories)
+[![Commit Activity](https://img.shields.io/github/commit-activity/y/adityasing9?style=for-the-badge&label=Commits%2FYear)](https://github.com/adityasing9)
+[![Last Commit](https://img.shields.io/github/last-commit/adityasing9/adityasing9?style=for-the-badge&label=Profile%20Updated)](https://github.com/adityasing9/adityasing9)
 
 </div>
+
+> 📈 Live contribution activity is available directly on my GitHub profile.
 
 ---
 
