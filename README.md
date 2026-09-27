@@ -1,95 +1,113 @@
-# 💫 About Me
+# 👋 Hi, I'm Aaditya Singh
 
-🚀 I am an **Artificial Intelligence and Machine Learning (AIML) student** focused on building practical and scalable software solutions.
+### AIML Engineer • AI Builder • Full-Stack Developer
 
-I specialize in developing **AI-powered applications and full-stack systems**, combining machine learning with modern web technologies to solve real-world problems.
+I build **practical software that solves real problems** — from AI-powered applications and intelligent tools to full-stack systems and developer utilities.
 
-I actively build and deploy projects to strengthen my skills in **machine learning, backend development, and system design**.
+I'm currently pursuing a **B.E. in Artificial Intelligence & Machine Learning** and actively turning what I learn into working projects.
+
+> **Build → Learn → Improve → Ship. 🚀**
 
 ---
 
-## 🏆 Achievements
+## 🧠 What I Build
+
+- 🤖 **AI & ML applications** — LLMs, RAG, automation and intelligent systems
+- 🌐 **Full-stack applications** — modern frontend + backend architectures
+- ⚙️ **Developer tools & automation** — utilities designed to save time and reduce friction
+- 🔐 **Security & systems projects** — learning how software behaves from the inside
+- 🧮 **Algorithms & problem solving** — DSA, optimization and practical algorithmic systems
+
+---
+
+## 🚧 Currently Exploring
+
+- AI agents and automation
+- Retrieval-Augmented Generation (RAG)
+- Machine Learning systems
+- Backend architecture & APIs
+- Data structures and algorithms
+- Scalable application design
+- Deployment, DevOps and cloud infrastructure
+
+---
+
+## 🛠️ Tech Stack
+
+### Languages
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
+![C++](https://img.shields.io/badge/C%2B%2B-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
+![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
+
+### AI / ML
+![AI](https://img.shields.io/badge/Artificial%20Intelligence-0D1117?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-0D1117?style=for-the-badge)
+![RAG](https://img.shields.io/badge/RAG-0D1117?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
+![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge&logo=scikit-learn&logoColor=F7931E)
+
+### Web & Backend
+![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=next.js&logoColor=FFFFFF)
+![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=5FA04E)
+![Express](https://img.shields.io/badge/Express-0D1117?style=for-the-badge&logo=express&logoColor=FFFFFF)
+![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688)
+
+### Databases
+![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1)
+![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=47A248)
+![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
+
+### Tools & Cloud
+![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
+![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)
+![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=FFFFFF)
+![Postman](https://img.shields.io/badge/Postman-0D1117?style=for-the-badge&logo=postman&logoColor=FF6C37)
+
+---
+
+## 🚀 Selected Projects
+
+| Project | What it is |
+|---|---|
+| 🧠 **Smart AI Study Assistant** | AI-powered study and document interaction system |
+| 🛠️ **ToolKit** | Collection of practical developer and utility tools |
+| 🔐 **CyberHash** | Security-focused hashing and cryptography project |
+| 💻 **RCPC** | Remote computer control and management system |
+| 🧩 **SettleHub** | Full-stack application for simplifying shared settlements |
+| 📚 **StudyAI** | RAG-oriented AI study assistant |
+| 🔒 **BidCrypt** | Secure / blockchain-oriented auction experimentation |
+| 🌐 **BuildLab** | Personal project portfolio and experimentation hub |
+
+👉 More projects are available across my repositories.
+
+---
+
+## 🌐 BuildLab
+
+### My project laboratory
+
+I use **BuildLab** to showcase projects, experiments and things I'm actively building.
+
+🔗 **https://build-lab-kappa.vercel.app**
+
+---
+
+## 📊 GitHub
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=adityasing9&theme=radical&no-frame=false&margin-w=8" />
+<img src="https://github-readme-stats.vercel.app/api?username=adityasing9&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&include_all_commits=true" height="165" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&layout=compact&theme=transparent&hide_border=true" height="165" />
 
 </div>
 
 ---
 
-## 🎯 Current Focus
-- AI/ML-based applications  
-- Full-stack development  
-- Real-world problem solving using AI  
-- Backend & system design  
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=adityasing9&theme=transparent&hide_border=false&include_all_commits=true&count_private=true" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&theme=transparent&hide_border=false&layout=compact" />
-
-</div>
-
----
-
-
-## 🗺️ My AI & Development Journey
-
-```mermaid
-journey
-    title My AI & Development Journey
-    section Foundation
-      Learn Python: 9: Me
-      JavaScript Basics: 8: Me
-      Problem Solving: 7: Me
-    section Building Skills
-      Full Stack Development: 8: Me
-      API Development: 8: Me
-      Machine Learning: 7: Me
-    section Current Focus
-      AI Projects (DevMentor): 9: Me
-      Real-world Applications: 8: Me
-      Backend Systems: 7: Me
-    section Next Goals
-      Advanced AI Systems: 5: Me
-      MLOps & Deployment: 4: Me
-      Scalable Systems: 3: Me
-```
-
----
-
-## 🌐 Portfolio
-
-### 🚀 BuildLab (My Personal Portfolio)
-
-🔗 https://build-lab-kappa.vercel.app
-
-> A fully deployed portfolio showcasing my AI and full-stack projects
-
-- Modern UI & responsive design  
-- Dynamic project rendering  
-- Built with scalability in mind  
-- Deployed on Vercel  
-
----
-
-## 🔥 Profile Views
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=adityasing9&label=Profile%20views&color=0e75b6&style=flat" />
-
-</div>
-
----
-
-## ⚡ Streak Stats
+## 🔥 Contribution Streak
 
 <div align="center">
 
@@ -99,60 +117,28 @@ journey
 
 ---
 
-## 🛠️ Tech Stack
+## 🎯 My Approach
 
-<div align="center">
+I don't want to just collect technologies.
 
-### 💻 Programming Languages
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=58A6FF)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+I prefer to:
 
+**Understand the problem → design the system → build it → test it → deploy it → improve it.**
 
-
-### 🤖 AI / Machine Learning
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0D1117?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)
-![PyTorch](https://img.shields.io/badge/PyTorch-0D1117?style=for-the-badge&logo=pytorch&logoColor=EE4C2C)
-![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge&logo=scikit-learn&logoColor=F7931E)
-![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=white)
-
-
-
-### 🌐 Web Development
-![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=3C873A)
-![Express](https://img.shields.io/badge/Express-0D1117?style=for-the-badge&logo=express&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-0D1117?style=for-the-badge&logo=fastapi&logoColor=white)
-
-
-
-### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=4EA94B)
-![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1)
-
-
-
-### 📊 Data Processing & Visualization
-![Pandas](https://img.shields.io/badge/Pandas-0D1117?style=for-the-badge&logo=pandas&logoColor=150458)
-![NumPy](https://img.shields.io/badge/NumPy-0D1117?style=for-the-badge&logo=numpy&logoColor=013243)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-0D1117?style=for-the-badge&logo=python&logoColor=white)
-
-
-
-### ⚙️ Tools & Platforms
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-0D1117?style=for-the-badge&logo=postman&logoColor=FF6C37)
-
-</div>
+Most of my repositories are experiments in turning an idea into something usable.
 
 ---
 
-## 🌐 Connect With Me
+## 🤝 Connect
 
-- GitHub: https://github.com/adityasing9  
-- LinkedIn: https://www.linkedin.com/in/aaditya-singh-37594b3ba/  
-- Email: to.msg.aadi@gmail.com  
+- 💼 [LinkedIn](https://www.linkedin.com/in/aaditya-singh-37594b3ba/)
+- 💻 [GitHub](https://github.com/adityasing9)
+- 🌐 [BuildLab](https://build-lab-kappa.vercel.app)
 
+---
 
+<div align="center">
+
+### ⚡ Building something every day.
+
+</div>
