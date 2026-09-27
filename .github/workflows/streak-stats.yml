@@ -24,7 +24,7 @@ jobs:
       - name: Generate streak stats
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
-          options: user=adityasing9&theme=dark&hide_border=true&hide_total_contributions=true&locale=en&timezone=Asia%2FKolkata&disable_animations=true
+          options: user=adityasing9&theme=dark&hide_border=true&hide_total_contributions=false&locale=en&timezone=Asia%2FKolkata&disable_animations=true
           path: profile/streak.svg
           token: ${{ secrets.STREAK_STATS_TOKEN }}
 
@@ -36,7 +36,7 @@ jobs:
           git add profile/streak.svg
           git diff --cached --quiet && exit 0
 
-          git commit -m "chore: update contribution streak"
+          git commit -m "chore: show total contribution count"
 
           git pull --rebase origin main
           git push origin HEAD:main
