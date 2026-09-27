@@ -104,9 +104,11 @@ I use **BuildLab** to showcase projects, experiments and things I'm actively bui
 [![Stars](https://img.shields.io/github/users-stars/adityasing9?style=for-the-badge&label=Stars)](https://github.com/adityasing9?tab=stars)
 [![Last Commit](https://img.shields.io/github/last-commit/adityasing9/adityasing9?style=for-the-badge&label=Profile%20Updated)](https://github.com/adityasing9/adityasing9)
 
-</div>
+[![Profile Views](https://komarev.com/ghpvc/?username=adityasing9&style=for-the-badge&color=0D1117&label=Profile%20Views)](https://github.com/adityasing9)
 
-> 📈 Live contribution activity is available directly on my GitHub profile.
+> 👀 Profile views are counted by Komarev's GitHub Profile Views Counter.
+
+</div>
 
 ---
 
