@@ -116,7 +116,7 @@ I use **BuildLab** to showcase projects, experiments and things I'm actively bui
 
 <div align="center">
 
-<img src="./profile/streak.svg" alt="GitHub Contribution Streak" />
+<img src="./profile/streak-v2.svg" alt="GitHub Contribution Streak" />
 
 </div>
 
