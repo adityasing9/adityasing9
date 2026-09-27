@@ -25,7 +25,7 @@ jobs:
         uses: DenverCoder1/github-readme-streak-stats@v1
         with:
           options: user=adityasing9&theme=dark&hide_border=true&hide_total_contributions=false&locale=en&timezone=Asia%2FKolkata&disable_animations=true
-          path: profile/streak.svg
+          path: profile/streak-v2.svg
           token: ${{ secrets.STREAK_STATS_TOKEN }}
 
       - name: Commit and push updated streak
@@ -33,10 +33,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add profile/streak.svg
+          git add profile/streak-v2.svg
           git diff --cached --quiet && exit 0
 
-          git commit -m "chore: show total contribution count"
+          git commit -m "chore: refresh visible contribution stats"
 
           git pull --rebase origin main
           git push origin HEAD:main
