@@ -126,6 +126,10 @@ It is the place where I turn ideas into working prototypes, test new technologie
 
 ---
 
+## 🧪 Build Philosophy
+
+I focus on turning ideas into usable software through iterative building, testing, deployment, and refinement.
+
 ## 🎯 My Approach
 
 I don't want to just collect technologies.
