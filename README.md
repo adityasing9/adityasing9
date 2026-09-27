@@ -101,7 +101,7 @@ I use **BuildLab** to showcase projects, experiments and things I'm actively bui
 
 [![Public Repositories](https://img.shields.io/badge/Public%20Repositories-46-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/adityasing9?tab=repositories)
 [![Followers](https://img.shields.io/github/followers/adityasing9?style=for-the-badge&label=Followers)](https://github.com/adityasing9)
-[![Stars](https://img.shields.io/github/users-stars/adityasing9?style=for-the-badge&label=Stars)](https://github.com/adityasing9?tab=stars)
+[![Starred Repositories](https://img.shields.io/badge/Starred%20Repositories-132-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/adityasing9?tab=stars)
 [![Last Commit](https://img.shields.io/github/last-commit/adityasing9/adityasing9?style=for-the-badge&label=Profile%20Updated)](https://github.com/adityasing9/adityasing9)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=adityasing9&style=for-the-badge&color=0D1117&label=Profile%20Views)](https://github.com/adityasing9)
