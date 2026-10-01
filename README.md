@@ -16,7 +16,7 @@
 
 <br/><br/>
 
-<img src="./profile/stack-list.svg" alt="Tech stack" width="100%"/>
+<img src="./profile/tech-stack-v2.svg" alt="Tech stack" width="100%"/>
 
 <br/><br/>
 
