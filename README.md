@@ -20,7 +20,7 @@
 
 <br/><br/>
 
-<img src="./profile/project-map.svg?v=2" alt="Project constellation" width="100%"/>
+<img src="./profile/project-map.svg?v=3" alt="Project constellation" width="100%"/>
 
 <br/><br/>
 
