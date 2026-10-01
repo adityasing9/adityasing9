@@ -65,7 +65,7 @@
 
 <br/><br/>
 
-<img src="./profile/streak.svg?v=2026-10-01" alt="GitHub contribution streak" width="100%"/>
+<img src="https://streak-stats.demolab.com/?user=adityasing9&theme=dark&hide_border=true&border_radius=12&background=09090b&stroke=27272a&ring=ff9500&fire=ff9500&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ff9500&sideLabels=ffffff&dates=a1a1aa&locale=en&date_format=M%20j%5B%2C%20Y%5D&timezone=Asia%2FKolkata" alt="GitHub contribution streak" width="100%"/>
 
 </div>
 
