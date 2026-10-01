@@ -65,7 +65,7 @@
 
 <br/><br/>
 
-<img src="./profile/streak.svg?v=1" alt="GitHub contribution streak" width="100%"/>
+<img src="./profile/streak.svg?v=2026-10-01" alt="GitHub contribution streak" width="100%"/>
 
 </div>
 
