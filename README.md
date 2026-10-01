@@ -67,7 +67,9 @@
 
 <br/><br/>
 
-<img src="https://github.com/users/adityasing9/contributions" alt="Aaditya Singh's GitHub contribution graph" width="95%"/>
+<a href="https://github.com/adityasing9">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=adityasing9&bg_color=09090b&color=a78bfa&line=06b6d4&point=ffffff&area=true&hide_border=true&custom_title=Aaditya%20Singh%20%7C%20GitHub%20Activity" alt="Aaditya Singh — GitHub activity graph" width="95%"/>
+</a>
 
 </div>
 
