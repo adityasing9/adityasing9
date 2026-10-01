@@ -1,18 +1,34 @@
 <div align="center">
 
-<img src="./profile/hero.svg?v=2" alt="Aaditya Singh — AIML Engineer, AI Builder, Full-Stack Developer" width="100%"/>
+<img src="./profile/hero.svg?v=3" alt="Aaditya Singh — AIML Engineer, AI Builder, Full-Stack Developer" width="100%"/>
 
 <br/><br/>
 
-<img src="./profile/about-life.svg?v=2" alt="What I build" width="100%"/>
+<img src="./profile/about-life.svg?v=3" alt="What I build" width="100%"/>
 
 <br/><br/>
 
-<img src="./profile/stack.svg?v=2" alt="Tech stack" width="100%"/>
+<img src="./profile/signal.svg?v=1" alt="Current signal" width="100%"/>
 
 <br/><br/>
 
-<img src="./profile/id-dashboard.svg?v=2" alt="Developer dashboard" width="100%"/>
+<img src="./profile/stack.svg?v=3" alt="Tech stack" width="100%"/>
+
+<br/><br/>
+
+<img src="./profile/ai-architecture.svg?v=1" alt="AI system architecture" width="100%"/>
+
+<br/><br/>
+
+<img src="./profile/project-map.svg?v=1" alt="Project constellation" width="100%"/>
+
+<br/><br/>
+
+<img src="./profile/build-loop.svg?v=1" alt="Build loop" width="100%"/>
+
+<br/><br/>
+
+<img src="./profile/id-dashboard.svg?v=3" alt="Developer dashboard" width="100%"/>
 
 <br/><br/>
 
@@ -49,13 +65,17 @@
 
 <img src="https://streak-stats.demolab.com?user=adityasing9&hide_border=true&theme=transparent&ring=7c3aed&fire=06b6d4&currStreakLabel=7c3aed" alt="GitHub contribution streak"/>
 
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=adityasing9&bg_color=09090b&color=a78bfa&line=06b6d4&point=ffffff&area=true&hide_border=true" alt="GitHub activity graph" width="95%"/>
+
 </div>
 
 <div align="center">
 
 <br/>
 
-<img src="./profile/connect.svg?v=2" alt="Let's connect" width="100%"/>
+<img src="./profile/connect.svg?v=3" alt="Let's connect" width="100%"/>
 
 <br/><br/>
 
