@@ -53,7 +53,7 @@
 
 <div align="center">
 
-<img src="./profile/github-activity.svg?v=1" alt="GitHub activity — live repository signals" width="100%"/>
+<img src="./profile/github-activity.svg?v=2" alt="GitHub activity — live repository signals" width="100%"/>
 
 </div>
 
