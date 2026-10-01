@@ -57,6 +57,12 @@
 
 <div align="center">
 
+<img src="./profile/languages.svg?v=1" alt="Most used programming languages" width="100%"/>
+
+</div>
+
+<div align="center">
+
 <img src="./profile/github-activity.svg?v=2" alt="GitHub activity — live repository signals" width="100%"/>
 
 </div>
