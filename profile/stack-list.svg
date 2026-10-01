@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+<rect width="1200" height="760" rx="24" fill="#0b0b10" stroke="#27272a"/>
+<text x="45" y="52" fill="#fafafa" font-family="Arial,sans-serif" font-size="30" font-weight="700">Tech stack</text>
+<line x1="45" y1="72" x2="1155" y2="72" stroke="#27272a"/>
+<g font-family="Arial,sans-serif">
+<text x="55" y="112" fill="#a78bfa" font-size="16" font-weight="700">Languages</text>
+<text x="75" y="145" fill="#d4d4d8" font-size="17">Python</text>
+<text x="75" y="174" fill="#d4d4d8" font-size="17">C++</text>
+<text x="75" y="203" fill="#d4d4d8" font-size="17">JavaScript</text>
+<text x="75" y="232" fill="#d4d4d8" font-size="17">TypeScript</text>
+
+<text x="295" y="112" fill="#a78bfa" font-size="16" font-weight="700">AI / ML</text>
+<text x="315" y="145" fill="#d4d4d8" font-size="17">LLMs</text>
+<text x="315" y="174" fill="#d4d4d8" font-size="17">RAG</text>
+<text x="315" y="203" fill="#d4d4d8" font-size="17">OpenCV</text>
+<text x="315" y="232" fill="#d4d4d8" font-size="17">Scikit-learn</text>
+
+<text x="535" y="112" fill="#a78bfa" font-size="16" font-weight="700">Web</text>
+<text x="555" y="145" fill="#d4d4d8" font-size="17">React</text>
+<text x="555" y="174" fill="#d4d4d8" font-size="17">Next.js</text>
+<text x="555" y="203" fill="#d4d4d8" font-size="17">Node.js</text>
+<text x="555" y="232" fill="#d4d4d8" font-size="17">Express</text>
+<text x="555" y="261" fill="#d4d4d8" font-size="17">FastAPI</text>
+
+<text x="795" y="112" fill="#a78bfa" font-size="16" font-weight="700">Data</text>
+<text x="815" y="145" fill="#d4d4d8" font-size="17">MySQL</text>
+<text x="815" y="174" fill="#d4d4d8" font-size="17">Supabase</text>
+<text x="815" y="203" fill="#d4d4d8" font-size="17">MongoDB</text>
+
+<line x1="45" y1="295" x2="1155" y2="295" stroke="#1f1f26"/>
+<text x="55" y="335" fill="#a78bfa" font-size="16" font-weight="700">Cloud / Tools</text>
+<text x="75" y="368" fill="#d4d4d8" font-size="17">Git</text>
+<text x="75" y="397" fill="#d4d4d8" font-size="17">GitHub</text>
+<text x="75" y="426" fill="#d4d4d8" font-size="17">Docker</text>
+<text x="75" y="455" fill="#d4d4d8" font-size="17">Vercel</text>
+<text x="75" y="484" fill="#d4d4d8" font-size="17">Postman</text>
+</g>
+</svg>
