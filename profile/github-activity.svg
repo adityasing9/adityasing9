@@ -1,38 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" role="img">
 <defs>
-  <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1200" height="300" rx="24" fill="#09090b" stroke="#27272a"/>
-<rect x="1" y="1" width="1198" height="5" rx="3" fill="url(#g)"/>
-<text x="52" y="58" fill="#fafafa" font-family="Arial, sans-serif" font-size="25" font-weight="700">GITHUB ACTIVITY</text>
-<text x="52" y="86" fill="#71717a" font-family="Arial, sans-serif" font-size="14">live repository signals • refreshed automatically</text>
-
-<g transform="translate(52 125)">
-  <rect width="250" height="120" rx="18" fill="#111113" stroke="#27272a"/>
-  <circle cx="34" cy="35" r="8" fill="#7c3aed" filter="url(#glow)"/>
-  <text x="56" y="42" fill="#a1a1aa" font-family="Arial, sans-serif" font-size="14">PUBLIC REPOSITORIES</text>
-  <text id="repos" x="28" y="88" fill="#fff" font-family="Arial, sans-serif" font-size="32" font-weight="700">49</text>
+<rect width="900" height="230" rx="24" fill="#09090b" stroke="#27272a"/>
+<rect x="1" y="1" width="898" height="5" rx="3" fill="url(#g)"/>
+<text x="48" y="55" fill="#fafafa" font-family="Arial,sans-serif" font-size="24" font-weight="700">GITHUB ACTIVITY</text>
+<text x="48" y="82" fill="#71717a" font-family="Arial,sans-serif" font-size="13">live repository signals • refreshed automatically</text>
+<g transform="translate(48 110)">
+<rect width="385" height="82" rx="18" fill="#111113" stroke="#27272a"/>
+<circle cx="30" cy="41" r="8" fill="#7c3aed" filter="url(#glow)"/>
+<text x="52" y="35" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="13">PUBLIC REPOSITORIES</text>
+<text id="repos" x="52" y="63" fill="#fff" font-family="Arial,sans-serif" font-size="25" font-weight="700">49</text>
 </g>
-
-<g transform="translate(322 125)">
-  <rect width="250" height="120" rx="18" fill="#111113" stroke="#27272a"/>
-  <circle cx="34" cy="35" r="8" fill="#06b6d4" filter="url(#glow)"/>
-  <text x="56" y="42" fill="#a1a1aa" font-family="Arial, sans-serif" font-size="14">TOTAL STARS</text>
-  <text id="stars" x="28" y="88" fill="#fff" font-family="Arial, sans-serif" font-size="32" font-weight="700">207</text>
-</g>
-
-<g transform="translate(592 125)">
-  <rect width="250" height="120" rx="18" fill="#111113" stroke="#27272a"/>
-  <circle cx="34" cy="35" r="8" fill="#22c55e" filter="url(#glow)"/>
-  <text x="56" y="42" fill="#a1a1aa" font-family="Arial, sans-serif" font-size="14">FOLLOWERS</text>
-  <text id="followers" x="28" y="88" fill="#fff" font-family="Arial, sans-serif" font-size="32" font-weight="700">20</text>
-</g>
-
-<g transform="translate(862 125)">
-  <rect width="286" height="120" rx="18" fill="#111113" stroke="#27272a"/>
-  <text x="28" y="35" fill="#a1a1aa" font-family="Arial, sans-serif" font-size="14">FEATURED STAR SIGNAL</text>
-  <text id="featured" x="28" y="78" fill="#fff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Smart-AI-Study-Assistant: 11★  •  ToolKit: 8★  •  SettleHub: 8★  •  Pass: 6★</text>
-  <text x="28" y="101" fill="#71717a" font-family="Arial, sans-serif" font-size="12">Smart AI • ToolKit • SettleHub • RCPC</text>
+<g transform="translate(467 110)">
+<rect width="385" height="82" rx="18" fill="#111113" stroke="#27272a"/>
+<circle cx="30" cy="41" r="8" fill="#06b6d4" filter="url(#glow)"/>
+<text x="52" y="35" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="13">TOTAL STARS</text>
+<text id="stars" x="52" y="63" fill="#fff" font-family="Arial,sans-serif" font-size="25" font-weight="700">207</text>
 </g>
 </svg>
