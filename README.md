@@ -65,7 +65,7 @@
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=adityasing9&theme=dark&hide_border=true&background=09090b&ring=7c3aed&fire=06b6d4&currStreakLabel=7c3aed" alt="GitHub contribution streak" width="100%"/>
+<img src="https://streak-stats.demolab.com/?user=adityasing9&theme=dark&hide_border=true&background=09090b&ring=7c3aed&fire=06b6d4&currStreakLabel=7c3aed" alt="GitHub contribution streak" width="100%"/>
 
 </div>
 
