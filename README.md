@@ -41,7 +41,7 @@
 | [**Smart-AI-Study-Assistant**](https://github.com/adityasing9/Smart-AI-Study-Assistant) | Cloud-native AI study assistant with RAG, multimodal vision, and voice features | `React` `FastAPI` `RAG` | **10** |
 | [**ToolKit**](https://github.com/adityasing9/ToolKit) | Practical developer utilities collected into one toolkit | `Web` `Tools` `Automation` | **7** |
 | [**SettleHub**](https://github.com/adityasing9/SettleHub) | Shared-expense and debt simplification platform with OCR and offline support | `TypeScript` `PWA` `OCR` | **7** |
-| [**QR-SaaS-Dynamic**](https://github.com/adityasing9/QR-SaaS-Dynamic) | Dynamic QR and link-management SaaS with analytics and smart redirects | `FastAPI` `MySQL` `SaaS` | **6** |
+| [**Smart-Reminder-PWA**](https://github.com/adityasing9/Smart-Reminder-PWA) | Progressive web app for smart reminders and task tracking | `TypeScript` `PWA` `Web` | **5** |
 | [**RCPC**](https://github.com/adityasing9/RCPC) | Remote PC control and monitoring platform with wireless audio and multi-transport connectivity | `React` `FastAPI` `WebRTC` | **6** |
 | [**GlobalCart**](https://github.com/adityasing9/GlobalCart) | Full-stack e-commerce system with database and payment workflow | `Flask` `MySQL` | **5** |
 
