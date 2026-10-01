@@ -1,157 +1,74 @@
-# 👋 Hi, I'm Aaditya Singh
-
-### AIML Engineer • AI Builder • Full-Stack Developer
-
-I build **practical software that solves real problems** — from AI-powered applications and intelligent tools to full-stack systems and developer utilities.
-
-I'm currently pursuing a **B.E. in Artificial Intelligence & Machine Learning** and actively turning what I learn into working projects.
-
-> **Build → Learn → Improve → Ship. 🚀**
-
----
-
-## 🧠 What I Build
-
-- 🤖 **AI & ML applications** — LLMs, RAG, automation and intelligent systems
-- 🌐 **Full-stack applications** — modern frontend + backend architectures
-- ⚙️ **Developer tools & automation** — utilities designed to save time and reduce friction
-- 🔐 **Security & systems projects** — learning how software behaves from the inside
-- 🧮 **Algorithms & problem solving** — DSA, optimization and practical algorithmic systems
-
----
-
-## 🚧 Currently Exploring
-
-- AI agents and automation
-- Retrieval-Augmented Generation (RAG)
-- Machine Learning systems
-- Backend architecture & APIs
-- Data structures and algorithms
-- Scalable application design
-- Deployment, DevOps and cloud infrastructure
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![C++](https://img.shields.io/badge/C%2B%2B-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
-![JavaScript](https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=3178C6)
-
-### AI / ML
-![AI](https://img.shields.io/badge/Artificial%20Intelligence-0D1117?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-0D1117?style=for-the-badge)
-![RAG](https://img.shields.io/badge/RAG-0D1117?style=for-the-badge)
-![OpenCV](https://img.shields.io/badge/OpenCV-0D1117?style=for-the-badge&logo=opencv&logoColor=5C3EE8)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-0D1117?style=for-the-badge&logo=scikit-learn&logoColor=F7931E)
-
-### Web & Backend
-![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-0D1117?style=for-the-badge&logo=next.js&logoColor=FFFFFF)
-![Node.js](https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=node.js&logoColor=5FA04E)
-![Express](https://img.shields.io/badge/Express-0D1117?style=for-the-badge&logo=express&logoColor=FFFFFF)
-![FastAPI](https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=009688)
-
-### Databases
-![MySQL](https://img.shields.io/badge/MySQL-0D1117?style=for-the-badge&logo=mysql&logoColor=4479A1)
-![MongoDB](https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=47A248)
-![Supabase](https://img.shields.io/badge/Supabase-0D1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E)
-
-### Tools & Cloud
-![Git](https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
-![Vercel](https://img.shields.io/badge/Vercel-0D1117?style=for-the-badge&logo=vercel&logoColor=FFFFFF)
-![Postman](https://img.shields.io/badge/Postman-0D1117?style=for-the-badge&logo=postman&logoColor=FF6C37)
-
----
-
-## 🚀 Selected Projects
-
-| Project | What it is |
-|---|---|
-| 🧠 **Smart AI Study Assistant** | AI-powered study and document interaction system |
-| 🛠️ **ToolKit** | Collection of practical developer and utility tools |
-| 🔐 **CyberHash** | Security-focused hashing and cryptography project |
-| 💻 **RCPC** | Remote computer control and management system |
-| 🧩 **SettleHub** | Full-stack application for simplifying shared settlements |
-| 📚 **StudyAI** | RAG-oriented AI study assistant |
-| 🔒 **BidCrypt** | Secure / blockchain-oriented auction experimentation |
-| 🌐 **BuildLab** | Personal project portfolio and experimentation hub |
-
-👉 More projects are available across my repositories.
-
----
-
-## 🌐 BuildLab
-
-### My project laboratory
-
-I use **BuildLab** to showcase projects, experiments and things I'm actively building.
-
-It is the place where I turn ideas into working prototypes, test new technologies, and document projects as they evolve.
-
-🔗 **https://build-lab-kappa.vercel.app**
-
----
-
-## 📊 GitHub
-
 <div align="center">
 
-[![Public Repositories](https://img.shields.io/badge/Public%20Repositories-46-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/adityasing9?tab=repositories)
-[![Followers](https://img.shields.io/github/followers/adityasing9?style=for-the-badge&label=Followers)](https://github.com/adityasing9)
-[![Starred Repositories](https://img.shields.io/badge/Starred%20Repositories-132-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF)](https://github.com/adityasing9?tab=stars)
-[![Last Commit](https://img.shields.io/github/last-commit/adityasing9/adityasing9?style=for-the-badge&label=Profile%20Updated)](https://github.com/adityasing9/adityasing9)
+<img src="./profile/hero.svg?v=2" alt="Aaditya Singh — AIML Engineer, AI Builder, Full-Stack Developer" width="100%"/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=adityasing9&style=for-the-badge&color=0D1117&label=Profile%20Views)](https://github.com/adityasing9)
+<br/><br/>
 
-> 👀 Profile views are counted by Komarev's GitHub Profile Views Counter.
+<img src="./profile/about-life.svg?v=2" alt="What I build" width="100%"/>
+
+<br/><br/>
+
+<img src="./profile/stack.svg?v=2" alt="Tech stack" width="100%"/>
+
+<br/><br/>
+
+<img src="./profile/id-dashboard.svg?v=2" alt="Developer dashboard" width="100%"/>
+
+<br/><br/>
 
 </div>
 
----
+## 🚀 Featured builds
 
-## 🔥 Contribution Streak
+| Project | What it is | Stack |
+|:---|:---|:---|
+| [**AutoFlow**](https://github.com/adityasing9/AutoFlow) | AI-powered workflow discovery and privacy-preserving automation | `AI` `Python` `Automation` |
+| [**BioLens**](https://github.com/adityasing9/BioLens) | AI health-report analysis and intelligent insights | `Next.js` `FastAPI` `AI` |
+| [**StudyAI**](https://github.com/adityasing9/StudyAI) | RAG-oriented AI study assistant | `Python` `RAG` `MySQL` |
+| [**GlobalCart**](https://github.com/adityasing9/GlobalCart) | Full-stack e-commerce system with database and payment workflow | `Flask` `MySQL` |
+| [**BidCrypt**](https://github.com/adityasing9/BidCrypt) | Blockchain-oriented sealed-bid auction experimentation | `Solidity` `Hardhat` `Web3` |
+| [**ToolKit**](https://github.com/adityasing9/ToolKit) | Practical developer utilities collected into one toolkit | `Web` `Tools` `Automation` |
+
+## 🧭 Currently exploring
+
+`AI agents` `RAG` `workflow automation` `machine learning` `backend architecture` `DSA` `optimization` `cloud deployment`
+
+## 📊 GitHub activity
 
 <div align="center">
 
-<img src="./profile/streak-v2.svg" alt="GitHub Contribution Streak" />
+<a href="https://github.com/adityasing9">
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=adityasing9&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=7c3aed&icon_color=06b6d4" alt="GitHub stats"/>
+</a>
+
+<a href="https://github.com/adityasing9">
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&layout=compact&hide_border=true&theme=transparent&title_color=7c3aed" alt="Top languages"/>
+</a>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=adityasing9&hide_border=true&theme=transparent&ring=7c3aed&fire=06b6d4&currStreakLabel=7c3aed" alt="GitHub contribution streak"/>
 
 </div>
 
-> Updated automatically every day using GitHub Actions.
-
----
-
-## 🧪 Build Philosophy
-
-I focus on turning ideas into usable software through iterative building, testing, deployment, and refinement.
-
-## 🎯 My Approach
-
-I don't want to just collect technologies.
-
-I prefer to:
-
-**Understand the problem → design the system → build it → test it → deploy it → improve it.**
-
-Most of my repositories are experiments in turning an idea into something usable.
-
----
-
-## 🤝 Connect
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/aaditya-singh-37594b3ba/)
-- 💻 [GitHub](https://github.com/adityasing9)
-- 🌐 [BuildLab](https://build-lab-kappa.vercel.app)
-
----
-
 <div align="center">
 
-### ⚡ Building something every day.
+<br/>
+
+<img src="./profile/connect.svg?v=2" alt="Let's connect" width="100%"/>
+
+<br/><br/>
+
+<a href="https://github.com/adityasing9"><img src="https://img.shields.io/badge/GitHub-09090b?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/aaditya-singh-37594b3ba/"><img src="https://img.shields.io/badge/LinkedIn-09090b?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
+<a href="mailto:to.msg.aadi@gmail.com"><img src="https://img.shields.io/badge/Email-09090b?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=adityasing9&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+
+<br/><br/>
+
+**Build → Learn → Improve → Ship. 🚀**
 
 </div>
