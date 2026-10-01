@@ -67,7 +67,7 @@
 
 <br/><br/>
 
-<img src="./profile/contribution-graph.svg?v=2" alt="Aaditya Singh — contribution-style activity graph" width="95%"/>
+<img src="./profile/contribution-graph.svg?v=4" alt="Aaditya Singh — contribution-style activity graph" width="95%"/>
 
 </div>
 
