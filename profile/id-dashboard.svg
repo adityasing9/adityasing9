@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250">
+<rect width="1200" height="250" rx="24" fill="#0b0b10" stroke="#27272a"/>
+<text x="45" y="48" fill="#fafafa" font-family="Arial,sans-serif" font-size="28" font-weight="700">Developer dashboard</text>
+<g font-family="Arial,sans-serif">
+<text x="60" y="105" fill="#a1a1aa" font-size="15">FOCUS</text><text x="60" y="137" fill="white" font-size="24" font-weight="700">AI × Software × Systems</text>
+<text x="420" y="105" fill="#a1a1aa" font-size="15">EDUCATION</text><text x="420" y="137" fill="white" font-size="24" font-weight="700">B.E. AIML • 2028</text>
+<text x="775" y="105" fill="#a1a1aa" font-size="15">BUILD STYLE</text><text x="775" y="137" fill="white" font-size="24" font-weight="700">Prototype → Deploy → Improve</text>
+<line x1="45" y1="170" x2="1155" y2="170" stroke="#27272a"/>
+<text x="60" y="208" fill="#71717a" font-size="17">Currently exploring: agents • RAG • automation • backend architecture • DSA</text>
+</g></svg>
