@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="https://komarev.com/ghpvc/?username=adityasing9&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+
+<br/>
+
 <img src="./profile/hero.svg?v=3" alt="Aaditya Singh — AIML Engineer, AI Builder, Full-Stack Developer" width="100%"/>
 
 <br/><br/>
@@ -71,7 +75,6 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=adityasing9&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
 
 <br/><br/>
 
