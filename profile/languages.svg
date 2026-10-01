@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img">
+<defs>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+</defs>
+<rect width="1000" height="360" rx="24" fill="#09090b" stroke="#27272a"/>
+<rect x="1" y="1" width="998" height="5" rx="3" fill="url(#g)"/>
+<text x="48" y="55" fill="#fafafa" font-family="Arial,sans-serif" font-size="24" font-weight="700">MOST USED LANGUAGES</text>
+<text x="48" y="82" fill="#71717a" font-family="Arial,sans-serif" font-size="13">calculated from repository code • refreshed automatically</text>
+<g id="languages">
+<text x="48" y="130" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="15">Loading language data...</text>
+</g>
+</svg>
