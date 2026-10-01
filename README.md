@@ -57,7 +57,11 @@
 
 <div align="center">
 
-<img src="./profile/languages.svg?v=2" alt="Most used programming languages" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&layout=compact&langs_count=6&hide_border=true&theme=transparent&title_color=7c3aed&text_color=a1a1aa&bg_color=09090b&cache_seconds=1800" alt="Most used programming languages" width="100%"/>
+
+<br/><br/>
+
+<img src="./profile/github-activity.svg?v=2" alt="GitHub activity — repositories and stars" width="100%"/>
 
 </div>
 
