@@ -1,0 +1,74 @@
+name: Update Featured Project Stars
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile
+        uses: actions/checkout@v4
+
+      - name: Update star counts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import os
+          import re
+          import urllib.request
+
+          path = "README.md"
+          projects = [
+              "Smart-AI-Study-Assistant",
+              "ToolKit",
+              "SettleHub",
+              "Pass",
+              "RCPC",
+              "GlobalCart",
+          ]
+
+          token = os.environ["GH_TOKEN"]
+          headers = {
+              "Authorization": f"Bearer {token}",
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+          }
+
+          def stars(repo):
+              req = urllib.request.Request(
+                  f"https://api.github.com/repos/adityasing9/{repo}",
+                  headers=headers,
+              )
+              with urllib.request.urlopen(req) as response:
+                  import json
+                  return json.load(response)["stargazers_count"]
+
+          with open(path, "r", encoding="utf-8") as f:
+              readme = f.read()
+
+          for repo in projects:
+              count = stars(repo)
+              pattern = rf"(\[\*\*{re.escape(repo)}\*\*\]\(https://github\.com/adityasing9/{re.escape(repo)}\).*?\| )\*\*\d+\*\*( \|)"
+              readme, changed = re.subn(pattern, rf"\g<1>**{count}**\g<2>", readme, count=1, flags=re.S)
+              if changed == 0:
+                  raise SystemExit(f"Could not find star cell for {repo}")
+
+          with open(path, "w", encoding="utf-8") as f:
+              f.write(readme)
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update featured project stars"
+          git push
