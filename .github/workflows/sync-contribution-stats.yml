@@ -1,0 +1,146 @@
+name: Sync GitHub Contribution Stats
+
+on:
+  push:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read GitHub contribution calendar
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import html
+          import re
+          import urllib.request
+
+          username = "adityasing9"
+          url = f"https://github.com/users/{username}/contributions"
+          req = urllib.request.Request(
+              url,
+              headers={
+                  "User-Agent": "adityasing9-profile-sync/1.0",
+                  "Accept": "text/html",
+              },
+          )
+          page = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+
+          cells = {}
+          for tag in re.findall(r'<td[^>]*class="[^"]*ContributionCalendar-day[^"]*"[^>]*>', page):
+              dm = re.search(r'data-date="(\d{4}-\d{2}-\d{2})"', tag)
+              im = re.search(r'id="([^"]+)"', tag)
+              if dm and im:
+                  cells[im.group(1)] = dm.group(1)
+
+          if not cells:
+              raise SystemExit("Could not read GitHub contribution calendar")
+
+          days = {}
+          for cell_id, date in cells.items():
+              tip = re.search(
+                  rf'<tool-tip[^>]*for="{re.escape(cell_id)}"[^>]*>(.*?)</tool-tip>',
+                  page,
+                  re.S,
+              )
+              count = 0
+              if tip:
+                  text = html.unescape(re.sub(r"<[^>]+>", "", tip.group(1))).strip()
+                  m = re.search(r"(\d[\d,]*)\s+contribution", text, re.I)
+                  if m:
+                      count = int(m.group(1).replace(",", ""))
+              days[dt.date.fromisoformat(date)] = count
+
+          today = dt.datetime.now(dt.timezone.utc).date()
+          start = today - dt.timedelta(days=365)
+          recent = {d: c for d, c in days.items() if start <= d <= today}
+          total = sum(recent.values())
+
+          current = 0
+          current_start = None
+          cursor = today
+          if recent.get(cursor, 0) == 0:
+              cursor -= dt.timedelta(days=1)
+          while recent.get(cursor, 0) > 0:
+              current += 1
+              current_start = cursor
+              cursor -= dt.timedelta(days=1)
+
+          longest = 0
+          longest_start = longest_end = None
+          run = 0
+          run_start = None
+          previous = None
+          for d in sorted(recent):
+              if recent[d] > 0:
+                  if previous is not None and d == previous + dt.timedelta(days=1):
+                      run += 1
+                  else:
+                      run = 1
+                      run_start = d
+                  if run > longest:
+                      longest = run
+                      longest_start = run_start
+                      longest_end = d
+              else:
+                  run = 0
+                  run_start = None
+              previous = d
+
+          def fmt(d):
+              return d.strftime("%b %-d") if d else "—"
+
+          current_range = f"{fmt(current_start)} – {fmt(today)}" if current_start else "No active streak"
+          longest_range = f"{fmt(longest_start)} – {fmt(longest_end)}" if longest_start else "—"
+
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" role="img">
+          <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+          <rect width="1000" height="270" rx="24" fill="#09090b"/>
+          <text x="70" y="72" fill="#fafafa" font-family="Arial,sans-serif" font-size="42" font-weight="700">{total}</text>
+          <text x="70" y="112" fill="#06b6d4" font-family="Arial,sans-serif" font-size="18">Contributions</text>
+          <text x="70" y="143" fill="#52525b" font-family="Arial,sans-serif" font-size="14">Last 12 months</text>
+          <line x1="333" y1="42" x2="333" y2="188" stroke="#d4d4d8"/>
+          <circle cx="500" cy="83" r="52" fill="none" stroke="url(#g)" stroke-width="7"/>
+          <text x="500" y="92" text-anchor="middle" fill="#06b6d4" font-family="Arial,sans-serif" font-size="30" font-weight="700">{current}</text>
+          <text x="500" y="143" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="18" font-weight="700">Current Streak</text>
+          <text x="500" y="169" text-anchor="middle" fill="#52525b" font-family="Arial,sans-serif" font-size="14">{current_range}</text>
+          <line x1="667" y1="42" x2="667" y2="188" stroke="#d4d4d8"/>
+          <text x="735" y="72" fill="#fafafa" font-family="Arial,sans-serif" font-size="42" font-weight="700">{longest}</text>
+          <text x="735" y="112" fill="#06b6d4" font-family="Arial,sans-serif" font-size="18">Longest Streak</text>
+          <text x="735" y="143" fill="#52525b" font-family="Arial,sans-serif" font-size="14">{longest_range}</text>
+          <rect x="70" y="212" width="860" height="2" fill="url(#g)" opacity=".45"/>
+          <text x="70" y="242" fill="#52525b" font-family="Arial,sans-serif" font-size="12">SOURCE: GITHUB CONTRIBUTION CALENDAR • AUTO-REFRESHED</text>
+          </svg>'''
+
+          with open("profile/streak.svg", "w", encoding="utf-8") as f:
+              f.write(svg)
+
+          # Change the image URL each refresh so GitHub's image proxy cannot
+          # keep showing an older cached contribution card.
+          with open("README.md", "r", encoding="utf-8") as f:
+              readme = f.read()
+          readme = re.sub(
+              r'\./profile/streak\.svg\?v=[^"]+',
+              f'./profile/streak.svg?v={today.isoformat()}',
+              readme,
+          )
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(readme)
+          PY
+
+      - name: Commit fresh contribution stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg README.md
+          git diff --cached --quiet || git commit -m "chore: sync GitHub contribution stats"
+          git push
