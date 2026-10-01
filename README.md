@@ -57,7 +57,7 @@
 
 <div align="center">
 
-<img src="./profile/languages.svg?v=1" alt="Most used programming languages" width="100%"/>
+<img src="./profile/languages.svg?v=2" alt="Most used programming languages" width="100%"/>
 
 </div>
 
