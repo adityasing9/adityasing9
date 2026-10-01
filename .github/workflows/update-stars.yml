@@ -1,6 +1,7 @@
 name: Update Featured Project Stars
 
 on:
+  push:
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
@@ -56,8 +57,8 @@ jobs:
 
           for repo in projects:
               count = stars(repo)
-              pattern = rf"(\[\*\*{re.escape(repo)}\*\*\]\(https://github\.com/adityasing9/{re.escape(repo)}\).*?\| )\*\*\d+\*\*( \|)"
-              readme, changed = re.subn(pattern, rf"\g<1>**{count}**\g<2>", readme, count=1, flags=re.S)
+              pattern = rf"(^\| \[\*\*{re.escape(repo)}\*\*\]\(https://github\.com/adityasing9/{re.escape(repo)}\).*?\| )\*\*\d+\*\*( \|$)"
+              readme, changed = re.subn(pattern, rf"\g<1>**{count}**\g<2>", readme, count=1, flags=re.M)
               if changed == 0:
                   raise SystemExit(f"Could not find star cell for {repo}")
 
