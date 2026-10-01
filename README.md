@@ -38,12 +38,12 @@
 
 | **Project** | **What it is** | **Stack** | **⭐ Stars** |
 |:---|:---|:---|---:|
+| [**Smart-AI-Study-Assistant**](https://github.com/adityasing9/Smart-AI-Study-Assistant) | Cloud-native AI study assistant with RAG, multimodal vision, and voice features | `React` `FastAPI` `RAG` | **10** |
 | [**ToolKit**](https://github.com/adityasing9/ToolKit) | Practical developer utilities collected into one toolkit | `Web` `Tools` `Automation` | **7** |
+| [**SettleHub**](https://github.com/adityasing9/SettleHub) | Shared-expense and debt simplification platform with OCR and offline support | `TypeScript` `PWA` `OCR` | **7** |
+| [**QR-SaaS-Dynamic**](https://github.com/adityasing9/QR-SaaS-Dynamic) | Dynamic QR and link-management SaaS with analytics and smart redirects | `FastAPI` `MySQL` `SaaS` | **6** |
+| [**RCPC**](https://github.com/adityasing9/RCPC) | Remote PC control and monitoring platform with wireless audio and multi-transport connectivity | `React` `FastAPI` `WebRTC` | **6** |
 | [**GlobalCart**](https://github.com/adityasing9/GlobalCart) | Full-stack e-commerce system with database and payment workflow | `Flask` `MySQL` | **5** |
-| [**StudyAI**](https://github.com/adityasing9/StudyAI) | RAG-oriented AI study assistant | `Python` `RAG` `MySQL` | **4** |
-| [**BioLens**](https://github.com/adityasing9/BioLens) | AI health-report analysis and intelligent insights | `Next.js` `FastAPI` `AI` | **3** |
-| [**BidCrypt**](https://github.com/adityasing9/BidCrypt) | Blockchain-oriented sealed-bid auction experimentation | `TypeScript` `Hardhat` `Web3` | **3** |
-| [**AutoFlow**](https://github.com/adityasing9/AutoFlow) | AI-powered workflow discovery and privacy-preserving automation | `AI` `Python` `Automation` | **1** |
 
 ## 🧭 Currently exploring
 
@@ -67,9 +67,7 @@
 
 <br/><br/>
 
-<a href="https://github.com/adityasing9">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=adityasing9&bg_color=09090b&color=a78bfa&line=06b6d4&point=ffffff&area=true&hide_border=true&custom_title=Aaditya%20Singh%20%7C%20GitHub%20Activity" alt="Aaditya Singh — GitHub activity graph" width="95%"/>
-</a>
+<img src="./profile/contribution-graph.svg?v=2" alt="Aaditya Singh — contribution-style activity graph" width="95%"/>
 
 </div>
 
