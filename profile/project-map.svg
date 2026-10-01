@@ -9,7 +9,7 @@
 <text x="55" y="79" fill="#71717a" font-family="Arial,sans-serif" font-size="15">Systems I've built — from AI and automation to real-world software.</text>
 
 <g stroke="url(#g)" stroke-width="1.5" opacity=".32">
-<path d="M600 195L190 140"/><path d="M600 195L355 305"/><path d="M600 195L830 120"/>
+<path d="M600 195L355 305"/><path d="M600 195L830 120"/>
 <path d="M600 195L1010 155"/><path d="M600 195L920 305"/><path d="M600 195L365 105"/>
 </g>
 
@@ -22,8 +22,6 @@
 <text x="600" y="188" fill="#a78bfa" font-size="11" letter-spacing="2">BUILDER</text>
 <text x="600" y="214" fill="#fff" font-size="20" font-weight="700">AI × SOFTWARE</text>
 
-<g><circle cx="190" cy="140" r="42" fill="#0f172a" stroke="#06b6d4" stroke-width="2"/>
-<text x="190" y="136" fill="#fff" font-size="15" font-weight="700">AutoFlow</text><text x="190" y="156" fill="#67e8f9" font-size="11">Automation</text></g>
 
 <g><circle cx="365" cy="105" r="42" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
 <text x="365" y="101" fill="#fff" font-size="14" font-weight="700">Smart AI</text><text x="365" y="121" fill="#fcd34d" font-size="11">Study • RAG</text></g>
