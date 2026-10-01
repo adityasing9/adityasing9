@@ -36,14 +36,14 @@
 
 ## 🚀 Featured builds
 
-| Project | What it is | Stack |
-|:---|:---|:---|
-| [**AutoFlow**](https://github.com/adityasing9/AutoFlow) | AI-powered workflow discovery and privacy-preserving automation | `AI` `Python` `Automation` |
-| [**BioLens**](https://github.com/adityasing9/BioLens) | AI health-report analysis and intelligent insights | `Next.js` `FastAPI` `AI` |
-| [**StudyAI**](https://github.com/adityasing9/StudyAI) | RAG-oriented AI study assistant | `Python` `RAG` `MySQL` |
-| [**GlobalCart**](https://github.com/adityasing9/GlobalCart) | Full-stack e-commerce system with database and payment workflow | `Flask` `MySQL` |
-| [**BidCrypt**](https://github.com/adityasing9/BidCrypt) | Blockchain-oriented sealed-bid auction experimentation | `Solidity` `Hardhat` `Web3` |
-| [**ToolKit**](https://github.com/adityasing9/ToolKit) | Practical developer utilities collected into one toolkit | `Web` `Tools` `Automation` |
+| Project | What it is | Stack | ⭐ |
+|:---|:---|:---|---:|
+| [**ToolKit**](https://github.com/adityasing9/ToolKit) | Practical developer utilities collected into one toolkit | `Web` `Tools` `Automation` | **7** |
+| [**GlobalCart**](https://github.com/adityasing9/GlobalCart) | Full-stack e-commerce system with database and payment workflow | `Flask` `MySQL` | **5** |
+| [**StudyAI**](https://github.com/adityasing9/StudyAI) | RAG-oriented AI study assistant | `Python` `RAG` `MySQL` | **4** |
+| [**BioLens**](https://github.com/adityasing9/BioLens) | AI health-report analysis and intelligent insights | `Next.js` `FastAPI` `AI` | **3** |
+| [**BidCrypt**](https://github.com/adityasing9/BidCrypt) | Blockchain-oriented sealed-bid auction experimentation | `Solidity` `Hardhat` `Web3` | **3** |
+| [**AutoFlow**](https://github.com/adityasing9/AutoFlow) | AI-powered workflow discovery and privacy-preserving automation | `AI` `Python` `Automation` | **1** |
 
 ## 🧭 Currently exploring
 
