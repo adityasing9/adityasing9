@@ -1,38 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
-<rect width="1200" height="760" rx="24" fill="#0b0b10" stroke="#27272a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 555">
+<defs>
+  <linearGradient id="accent" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+</defs>
+<rect width="1200" height="555" rx="24" fill="#0b0b10" stroke="#27272a"/>
+<rect x="1" y="1" width="1198" height="4" rx="2" fill="url(#accent)"/>
 <text x="45" y="52" fill="#fafafa" font-family="Arial,sans-serif" font-size="30" font-weight="700">Tech stack</text>
-<line x1="45" y1="72" x2="1155" y2="72" stroke="#27272a"/>
+
 <g font-family="Arial,sans-serif">
-<text x="55" y="112" fill="#a78bfa" font-size="16" font-weight="700">Languages</text>
-<text x="75" y="145" fill="#d4d4d8" font-size="17">Python</text>
-<text x="75" y="174" fill="#d4d4d8" font-size="17">C++</text>
-<text x="75" y="203" fill="#d4d4d8" font-size="17">JavaScript</text>
-<text x="75" y="232" fill="#d4d4d8" font-size="17">TypeScript</text>
+<!-- Languages -->
+<g transform="translate(45,82)">
+<rect width="535" height="190" rx="18" fill="#14141a" stroke="#27272a"/>
+<text x="24" y="36" fill="#a78bfa" font-size="16" font-weight="700">LANGUAGES</text>
+<text x="24" y="72" fill="#e4e4e7" font-size="16">Python</text>
+<text x="24" y="101" fill="#e4e4e7" font-size="16">C++</text>
+<text x="24" y="130" fill="#e4e4e7" font-size="16">JavaScript</text>
+<text x="24" y="159" fill="#e4e4e7" font-size="16">TypeScript</text>
+</g>
 
-<text x="295" y="112" fill="#a78bfa" font-size="16" font-weight="700">AI / ML</text>
-<text x="315" y="145" fill="#d4d4d8" font-size="17">LLMs</text>
-<text x="315" y="174" fill="#d4d4d8" font-size="17">RAG</text>
-<text x="315" y="203" fill="#d4d4d8" font-size="17">OpenCV</text>
-<text x="315" y="232" fill="#d4d4d8" font-size="17">Scikit-learn</text>
+<!-- AI -->
+<g transform="translate(620,82)">
+<rect width="535" height="190" rx="18" fill="#14141a" stroke="#27272a"/>
+<text x="24" y="36" fill="#a78bfa" font-size="16" font-weight="700">AI / ML</text>
+<text x="24" y="72" fill="#e4e4e7" font-size="16">LLMs</text>
+<text x="24" y="101" fill="#e4e4e7" font-size="16">RAG</text>
+<text x="24" y="130" fill="#e4e4e7" font-size="16">OpenCV</text>
+<text x="24" y="159" fill="#e4e4e7" font-size="16">Scikit-learn</text>
+</g>
 
-<text x="535" y="112" fill="#a78bfa" font-size="16" font-weight="700">Web</text>
-<text x="555" y="145" fill="#d4d4d8" font-size="17">React</text>
-<text x="555" y="174" fill="#d4d4d8" font-size="17">Next.js</text>
-<text x="555" y="203" fill="#d4d4d8" font-size="17">Node.js</text>
-<text x="555" y="232" fill="#d4d4d8" font-size="17">Express</text>
-<text x="555" y="261" fill="#d4d4d8" font-size="17">FastAPI</text>
+<!-- Web -->
+<g transform="translate(45,294)">
+<rect width="535" height="225" rx="18" fill="#14141a" stroke="#27272a"/>
+<text x="24" y="36" fill="#a78bfa" font-size="16" font-weight="700">WEB</text>
+<text x="24" y="72" fill="#e4e4e7" font-size="16">React</text>
+<text x="24" y="101" fill="#e4e4e7" font-size="16">Next.js</text>
+<text x="24" y="130" fill="#e4e4e7" font-size="16">Node.js</text>
+<text x="24" y="159" fill="#e4e4e7" font-size="16">Express</text>
+<text x="24" y="188" fill="#e4e4e7" font-size="16">FastAPI</text>
+</g>
 
-<text x="795" y="112" fill="#a78bfa" font-size="16" font-weight="700">Data</text>
-<text x="815" y="145" fill="#d4d4d8" font-size="17">MySQL</text>
-<text x="815" y="174" fill="#d4d4d8" font-size="17">Supabase</text>
-<text x="815" y="203" fill="#d4d4d8" font-size="17">MongoDB</text>
-
-<line x1="45" y1="295" x2="1155" y2="295" stroke="#1f1f26"/>
-<text x="55" y="335" fill="#a78bfa" font-size="16" font-weight="700">Cloud / Tools</text>
-<text x="75" y="368" fill="#d4d4d8" font-size="17">Git</text>
-<text x="75" y="397" fill="#d4d4d8" font-size="17">GitHub</text>
-<text x="75" y="426" fill="#d4d4d8" font-size="17">Docker</text>
-<text x="75" y="455" fill="#d4d4d8" font-size="17">Vercel</text>
-<text x="75" y="484" fill="#d4d4d8" font-size="17">Postman</text>
+<!-- Data -->
+<g transform="translate(620,294)">
+<rect width="535" height="225" rx="18" fill="#14141a" stroke="#27272a"/>
+<text x="24" y="36" fill="#a78bfa" font-size="16" font-weight="700">DATA</text>
+<text x="24" y="72" fill="#e4e4e7" font-size="16">MySQL</text>
+<text x="24" y="101" fill="#e4e4e7" font-size="16">Supabase</text>
+<text x="24" y="130" fill="#e4e4e7" font-size="16">MongoDB</text>
+<text x="24" y="174" fill="#a78bfa" font-size="16" font-weight="700">CLOUD / TOOLS</text>
+<text x="24" y="205" fill="#e4e4e7" font-size="16">Git • GitHub • Docker • Vercel • Postman</text>
+</g>
 </g>
 </svg>
