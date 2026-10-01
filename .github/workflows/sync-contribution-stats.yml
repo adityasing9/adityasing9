@@ -1,9 +1,8 @@
 name: Sync GitHub Contribution Stats
 
 on:
-  push:
   schedule:
-    - cron: "17 4 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -29,7 +28,7 @@ jobs:
           req = urllib.request.Request(
               url,
               headers={
-                  "User-Agent": "adityasing9-profile-sync/1.0",
+                  "User-Agent": "adityasing9-profile-sync/2.0",
                   "Accept": "text/html",
               },
           )
@@ -54,10 +53,10 @@ jobs:
               )
               count = 0
               if tip:
-                  text = html.unescape(re.sub(r"<[^>]+>", "", tip.group(1))).strip()
-                  m = re.search(r"(\d[\d,]*)\s+contribution", text, re.I)
-                  if m:
-                      count = int(m.group(1).replace(",", ""))
+                  tip_text = html.unescape(re.sub(r"<[^>]+>", "", tip.group(1))).strip()
+                  match = re.search(r"(\d[\d,]*)\s+contribution", tip_text, re.I)
+                  if match:
+                      count = int(match.group(1).replace(",", ""))
               days[dt.date.fromisoformat(date)] = count
 
           today = dt.datetime.now(dt.timezone.utc).date()
@@ -76,10 +75,12 @@ jobs:
               cursor -= dt.timedelta(days=1)
 
           longest = 0
-          longest_start = longest_end = None
+          longest_start = None
+          longest_end = None
           run = 0
           run_start = None
           previous = None
+
           for d in sorted(recent):
               if recent[d] > 0:
                   if previous is not None and d == previous + dt.timedelta(days=1):
@@ -87,6 +88,7 @@ jobs:
                   else:
                       run = 1
                       run_start = d
+
                   if run > longest:
                       longest = run
                       longest_start = run_start
@@ -103,36 +105,48 @@ jobs:
           longest_range = f"{fmt(longest_start)} – {fmt(longest_end)}" if longest_start else "—"
 
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" role="img">
-          <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient></defs>
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="#7c3aed"/>
+              <stop offset="1" stop-color="#06b6d4"/>
+            </linearGradient>
+          </defs>
           <rect width="1000" height="270" rx="24" fill="#09090b"/>
           <text x="70" y="72" fill="#fafafa" font-family="Arial,sans-serif" font-size="42" font-weight="700">{total}</text>
-          <text x="70" y="112" fill="#06b6d4" font-family="Arial,sans-serif" font-size="18">Contributions</text>
-          <text x="70" y="143" fill="#52525b" font-family="Arial,sans-serif" font-size="14">Last 12 months</text>
+          <text x="70" y="112" fill="#06b6d4" font-family="Arial,sans-serif" font-size="18">Total Contributions</text>
+          <text x="70" y="143" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="14">{fmt(start)} - Present</text>
+
           <line x1="333" y1="42" x2="333" y2="188" stroke="#d4d4d8"/>
+
           <circle cx="500" cy="83" r="52" fill="none" stroke="url(#g)" stroke-width="7"/>
-          <text x="500" y="92" text-anchor="middle" fill="#06b6d4" font-family="Arial,sans-serif" font-size="30" font-weight="700">{current}</text>
+          <text x="500" y="92" text-anchor="middle" fill="#fafafa" font-family="Arial,sans-serif" font-size="30" font-weight="700">{current}</text>
           <text x="500" y="143" text-anchor="middle" fill="#a78bfa" font-family="Arial,sans-serif" font-size="18" font-weight="700">Current Streak</text>
-          <text x="500" y="169" text-anchor="middle" fill="#52525b" font-family="Arial,sans-serif" font-size="14">{current_range}</text>
+          <text x="500" y="169" text-anchor="middle" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="14">{current_range}</text>
+
           <line x1="667" y1="42" x2="667" y2="188" stroke="#d4d4d8"/>
+
           <text x="735" y="72" fill="#fafafa" font-family="Arial,sans-serif" font-size="42" font-weight="700">{longest}</text>
           <text x="735" y="112" fill="#06b6d4" font-family="Arial,sans-serif" font-size="18">Longest Streak</text>
-          <text x="735" y="143" fill="#52525b" font-family="Arial,sans-serif" font-size="14">{longest_range}</text>
+          <text x="735" y="143" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="14">{longest_range}</text>
+
           <rect x="70" y="212" width="860" height="2" fill="url(#g)" opacity=".45"/>
-          <text x="70" y="242" fill="#52525b" font-family="Arial,sans-serif" font-size="12">SOURCE: GITHUB CONTRIBUTION CALENDAR • AUTO-REFRESHED</text>
+          <text x="70" y="242" fill="#52525b" font-family="Arial,sans-serif" font-size="12">SOURCE: GITHUB CONTRIBUTION CALENDAR • LIVE SYNC</text>
           </svg>'''
 
           with open("profile/streak.svg", "w", encoding="utf-8") as f:
               f.write(svg)
 
-          # Change the image URL each refresh so GitHub's image proxy cannot
-          # keep showing an older cached contribution card.
           with open("README.md", "r", encoding="utf-8") as f:
               readme = f.read()
+
+          # Five-minute cache-busting bucket.
+          bucket = int(dt.datetime.now(dt.timezone.utc).timestamp() // 300)
           readme = re.sub(
               r'\./profile/streak\.svg\?v=[^"]+',
-              f'./profile/streak.svg?v={today.isoformat()}',
+              f'./profile/streak.svg?v={bucket}',
               readme,
           )
+
           with open("README.md", "w", encoding="utf-8") as f:
               f.write(readme)
           PY
