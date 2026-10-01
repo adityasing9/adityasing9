@@ -53,21 +53,7 @@
 
 <div align="center">
 
-<a href="https://github.com/adityasing9">
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=adityasing9&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=7c3aed&icon_color=06b6d4" alt="GitHub stats"/>
-</a>
-
-<a href="https://github.com/adityasing9">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityasing9&layout=compact&hide_border=true&theme=transparent&title_color=7c3aed" alt="Top languages"/>
-</a>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=adityasing9&hide_border=true&theme=transparent&ring=7c3aed&fire=06b6d4&currStreakLabel=7c3aed" alt="GitHub contribution streak"/>
-
-<br/><br/>
-
-
+<img src="./profile/github-activity.svg?v=1" alt="GitHub activity — live repository signals" width="100%"/>
 
 </div>
 
