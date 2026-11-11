@@ -29,11 +29,18 @@ jobs:
           path = "README.md"
           projects = [
               "Smart-AI-Study-Assistant",
-              "ToolKit",
+              "TSE",
+              "StudyAI",
+              "WinOptimize-AI",
+              "Hack-Pass",
+              "QR-SaaS-Dynamic",
               "SettleHub",
-              "Pass",
-              "RCPC",
               "GlobalCart",
+              "ToolKit",
+              "CyberHash",
+              "RCPC",
+              "Pass",
+              "DevAnalyzer-Pro",
           ]
 
           token = os.environ["GH_TOKEN"]
@@ -44,23 +51,29 @@ jobs:
           }
 
           def stars(repo):
-              req = urllib.request.Request(
-                  f"https://api.github.com/repos/adityasing9/{repo}",
-                  headers=headers,
-              )
-              with urllib.request.urlopen(req) as response:
-                  import json
-                  return json.load(response)["stargazers_count"]
+              try:
+                  req = urllib.request.Request(
+                      f"https://api.github.com/repos/adityasing9/{repo}",
+                      headers=headers,
+                  )
+                  with urllib.request.urlopen(req) as response:
+                      import json
+                      return json.load(response)["stargazers_count"]
+              except Exception as e:
+                  print(f"Error fetching stars for {repo}: {e}")
+                  return None
 
           with open(path, "r", encoding="utf-8") as f:
               readme = f.read()
 
           for repo in projects:
               count = stars(repo)
+              if count is None:
+                  continue
               pattern = rf"(^\| \[\*\*{re.escape(repo)}\*\*\]\(https://github\.com/adityasing9/{re.escape(repo)}\).*?\| )\*\*\d+\*\*( \|$)"
               readme, changed = re.subn(pattern, rf"\g<1>**{count}**\g<2>", readme, count=1, flags=re.M)
               if changed == 0:
-                  raise SystemExit(f"Could not find star cell for {repo}")
+                  print(f"Notice: Could not find star cell for {repo}")
 
           with open(path, "w", encoding="utf-8") as f:
               f.write(readme)

@@ -1,22 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" role="img">
 <defs>
-<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
-<filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset=".5" stop-color="#06b6d4"/><stop offset="1" stop-color="#22c55e"/></linearGradient>
+<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <rect width="900" height="230" rx="24" fill="#09090b" stroke="#27272a"/>
 <rect x="1" y="1" width="898" height="5" rx="3" fill="url(#g)"/>
-<text x="48" y="55" fill="#fafafa" font-family="Arial,sans-serif" font-size="24" font-weight="700">GITHUB ACTIVITY</text>
-<text x="48" y="82" fill="#71717a" font-family="Arial,sans-serif" font-size="13">live repository signals • refreshed automatically</text>
-<g transform="translate(48 110)">
-<rect width="385" height="82" rx="18" fill="#111113" stroke="#27272a"/>
-<circle cx="30" cy="41" r="8" fill="#7c3aed" filter="url(#glow)"/>
-<text x="52" y="35" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="13">PUBLIC REPOSITORIES</text>
-<text id="repos" x="52" y="63" fill="#fff" font-family="Arial,sans-serif" font-size="25" font-weight="700">49</text>
+<text x="48" y="52" fill="#fafafa" font-family="Arial,sans-serif" font-size="24" font-weight="700">GITHUB ACTIVITY</text>
+<text x="48" y="78" fill="#71717a" font-family="Arial,sans-serif" font-size="13">live repository signals • updated automatically</text>
+<g transform="translate(48 105)">
+<rect width="254" height="84" rx="16" fill="#111113" stroke="#27272a"/>
+<circle cx="28" cy="42" r="7" fill="#7c3aed" filter="url(#glow)"/>
+<text x="48" y="34" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="12" font-weight="600">PUBLIC REPOS</text>
+<text id="repos" x="48" y="64" fill="#fff" font-family="Arial,sans-serif" font-size="26" font-weight="700">71</text>
 </g>
-<g transform="translate(467 110)">
-<rect width="385" height="82" rx="18" fill="#111113" stroke="#27272a"/>
-<circle cx="30" cy="41" r="8" fill="#06b6d4" filter="url(#glow)"/>
-<text x="52" y="35" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="13">TOTAL STARS</text>
-<text id="stars" x="52" y="63" fill="#fff" font-family="Arial,sans-serif" font-size="25" font-weight="700">207</text>
+<g transform="translate(323 105)">
+<rect width="254" height="84" rx="16" fill="#111113" stroke="#27272a"/>
+<circle cx="28" cy="42" r="7" fill="#06b6d4" filter="url(#glow)"/>
+<text x="48" y="34" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="12" font-weight="600">TOTAL STARS</text>
+<text id="stars" x="48" y="64" fill="#fff" font-family="Arial,sans-serif" font-size="26" font-weight="700">245+</text>
+</g>
+<g transform="translate(598 105)">
+<rect width="254" height="84" rx="16" fill="#111113" stroke="#27272a"/>
+<circle cx="28" cy="42" r="7" fill="#22c55e" filter="url(#glow)"/>
+<text x="48" y="34" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="12" font-weight="600">COMMUNITY</text>
+<text id="followers" x="48" y="64" fill="#fff" font-family="Arial,sans-serif" font-size="26" font-weight="700">22 followers</text>
 </g>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
 <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#7c3aed"/><stop offset=".5" stop-color="#06b6d4"/><stop offset="1" stop-color="#22c55e"/></linearGradient></defs>
-<rect width="1200" height="300" rx="28" fill="#09090b"/>
+<rect width="1200" height="300" rx="28" fill="#09090b" stroke="#27272a"/>
 <circle cx="1050" cy="70" r="150" fill="#7c3aed" opacity=".12"/><circle cx="1120" cy="230" r="180" fill="#06b6d4" opacity=".08"/>
 <text x="70" y="92" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="24">HELLO, I'M</text>
 <text x="70" y="155" fill="white" font-family="Arial,sans-serif" font-size="64" font-weight="700">AADITYA SINGH</text>
