@@ -17,7 +17,7 @@
 <rect width="254" height="84" rx="16" fill="#111113" stroke="#27272a"/>
 <circle cx="28" cy="42" r="7" fill="#06b6d4" filter="url(#glow)"/>
 <text x="48" y="34" fill="#a1a1aa" font-family="Arial,sans-serif" font-size="12" font-weight="600">TOTAL STARS</text>
-<text id="stars" x="48" y="64" fill="#fff" font-family="Arial,sans-serif" font-size="26" font-weight="700">244+</text>
+<text id="stars" x="48" y="64" fill="#fff" font-family="Arial,sans-serif" font-size="26" font-weight="700">246+</text>
 </g>
 <g transform="translate(598 105)">
 <rect width="254" height="84" rx="16" fill="#111113" stroke="#27272a"/>
