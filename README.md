@@ -65,7 +65,7 @@
 | [**ToolKit**](https://github.com/adityasing9/ToolKit) | Comprehensive suite of practical developer utilities & workflow automation | `Python` `Tools` `Automation` | [💻 GitHub](https://github.com/adityasing9/ToolKit) | **10** |
 | [**CyberHash**](https://github.com/adityasing9/CyberHash) | High-speed cryptographic toolkit and hash security analyzer | `JavaScript` `Security` `Crypto` | [🔗 Live Demo](https://cyber-hash-peach.vercel.app) | **10** |
 | [**RCPC**](https://github.com/adityasing9/RCPC) | Remote PC control & monitoring system with wireless audio and WebRTC streaming | `React` `FastAPI` `WebRTC` | [🔗 Live Demo](https://rcpr.vercel.app) | **9** |
-| [**Pass**](https://github.com/adityasing9/Pass) | Lightweight everyday productivity and workflow management utility | `Python` `CLI` `Utility` | [💻 GitHub](https://github.com/adityasing9/Pass) | **8** |
+| [**Pass**](https://github.com/adityasing9/Pass) | Lightweight everyday productivity and workflow management utility | `Python` `CLI` `Utility` | [💻 GitHub](https://github.com/adityasing9/Pass) | **9** |
 | [**DevAnalyzer-Pro**](https://github.com/adityasing9/DevAnalyzer-Pro) | Developer skill & repository intelligence scanner with actionable insights | `FastAPI` `React` `GitHub API` | [🔗 Live Demo](https://githubscan-seven.vercel.app/) | **5** |
 
 ## 🧭 Currently exploring
