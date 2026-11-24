@@ -88,6 +88,24 @@
 
 </div>
 
+## 🏙️ 3D Contribution Skyline
+
+<div align="center">
+
+<a href="https://gitskyline.vercel.app/?user=adityasing9">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green.svg" />
+    <img alt="3D GitHub Contribution Skyline" src="./profile-3d-contrib/profile-night-green.svg" width="100%" />
+  </picture>
+</a>
+
+<br/>
+
+<sub><em>Click the 3D skyline to explore the interactive WebGL version</em></sub>
+
+</div>
+
 <div align="center">
 
 <br/>
